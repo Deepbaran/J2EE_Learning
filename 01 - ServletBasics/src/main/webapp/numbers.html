@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Addition</title>
+</head>
+<body>
+	<form action="additionServlet">
+		<h2>Enter the Numbers</h2><br>
+		Number1: <input type="text" name="number1"><br>
+		Number2: <input type="text" name="number2"><br>
+		<input type="submit" name="submit" value="SUBMIT">
+	</form>
+</body>
+</html>
+
+<!-- 
+form tag has two methods GET and POST. GET is the default method. It is used to fetch data from the server. It appends the form-data in name/value pairs into the URL. Never use it to send sensitive data. GET is better
+for non-secure data. On the other hand POST appends form-data inside the body of the HTTP request (data is not shown in URL).
+The action attribute tells the form that this is the url where we need to submit the form to.
+
+The name attributes of the tags are used to identify the the specific tags in the backend.
+ -->
