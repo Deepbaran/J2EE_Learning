@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class PreInitServlet
  */
-//@WebServlet(urlPatterns = "/preInitServlet", loadOnStartup = 0) // As e are using web.xml, we don't need it
+//@WebServlet(urlPatterns = "/preInitServlet", loadOnStartup = 0) // As we are using web.xml, we don't need it
 public class PreInitServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
